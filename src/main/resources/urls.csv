@@ -1,0 +1,4 @@
+longUrl,customAlias,expiryDays
+https://openai.com,openai,30
+https://google.com,,15
+https://github.com,github,

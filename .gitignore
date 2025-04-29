@@ -61,7 +61,6 @@ dump.rdb
 # ========================
 # CSV uploads / Temp files
 # ========================
-*.csv
 /tmp/
 uploads/
 
