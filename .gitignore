@@ -1,0 +1,95 @@
+# ========================
+# Java / Maven / Spring Boot
+# ========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+*.log
+*.class
+*.jar
+*.war
+
+# ========================
+# IntelliJ IDEA
+# ========================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ========================
+# Eclipse
+# ========================
+.project
+.classpath
+.settings/
+bin/
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Environment/Secrets
+# ========================
+.env
+*.local
+application-prod.properties
+application-secrets.yml
+
+# ========================
+# Docker
+# ========================
+*.container
+docker-compose.override.yml
+
+# ========================
+# Redis / Mongo Dump Files
+# ========================
+*.rdb
+*.aof
+dump.rdb
+
+# ========================
+# CSV uploads / Temp files
+# ========================
+*.csv
+/tmp/
+uploads/
+
+# ========================
+# Build tools
+# ========================
+/build/
+
+# ========================
+# Logs
+# ========================
+*.log
+*.out
+*.err
+
+# ========================
+# Coverage / Reports
+# ========================
+.coverage
+coverage/
+jacoco.exec
+target/site/
+
+# ========================
+# Spring Boot specific
+# ========================
+.spring-boot-devtools.properties
+.spring-boot-devtools
+
+# Node modules (if front-end exists)
+node_modules/
